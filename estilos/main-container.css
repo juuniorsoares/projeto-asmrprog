@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+/* ESTILOS DA SECTION 1*/
+.section1 {
+    display: flex;
+    height: 90vh;
+    padding: 0 3%;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.texts h1 {
+    font-size: 4rem;
+}
+
+.texts span {
+    color: #0F2182;
+    font-weight: 700;
+}
+
+.button__compra {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 8px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.button__compra p {
+    color: white;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__compra i {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.imagen__principal {
+    margin-left: 100px;
+}
+
+.imagen__principal img {
+    width: 600px;
+    height: 600px;
+}
+
+/* ESTILOS DA SECTION 2*/
+.section2 {
+    height: 40vh;
+    padding: 0 3%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__section2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.divs-container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    gap: 30px;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.105);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#card span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#card i {
+    margin-right: 10px;
+}
+
+#card p {
+    font-weight: 500;
+}
+
+/* ESTILOS DA SECTION 3 */
+
+.section3 {
+    height: 90vh;
+    padding: 0 3%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__section3 {
+    font-size: 1.5rem;
+}
+
+.menu2 {
+    display: flex;
+}
+
+.menu2 li {
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #DFDCDC;
+}
+
+.menu2 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu2 a {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: #DFDCDC;
+}
+
+.nft-shop .nft-list {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item {
+    background-color: #fff;
+    width: 290px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+
+.nft-shop .nft-list .item img {
+    width: 290px;
+    height: 290px;
+    margin: auto;
+    border-radius: 18px;
+}
+
+.nft-shop .nft-list .item .info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #edecec;
+}
+
+.nft-shop .nft-list .item .info h5 {
+    font-size: 18px;
+}
+
+.nft-shop .nft-list .item .info .btc {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nft-shop .nft-list .item .btc i {
+    font-size: 22px;
+    color: #304ffe;
+}
+
+.nft-shop .nft-list .item .btc p {
+    font-size: 12px;
+    color: #304ffe;
+}
+
+.nft-shop .nft-list .item .info>p {
+    font-size: 12px;
+    color: #989898;
+}
+
+.nft-shop .nft-list .item .bid {
+    padding: 14px 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nft-shop .nft-list .item .bid p,
+.nft-shop .nft-list .item .bid a {
+    background-color: #edecec;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.nft-shop .nft-list .item .bid a {
+    color: #304ffe;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.nft-shop .nft-list .item .bid a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.view-more {
+    margin: 10px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.view-more button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #dfdcdc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-more button:hover {
+    color: #fff;
+    background: #0f2182;
+}
+
+.separator{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sellers {
+    padding: 0 80px;
+    margin: 40px 0 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.sellers .item {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    gap: 14px;
+    padding: 14px;
+    border-radius: 18px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 60px;
+}
+
+.sellers .item img {
+    width: 64px;
+}
+
+.sellers .item .info p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 48px;
+}
+
+footer .right {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links {
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a {
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover {
+    color: #fff;
+}
+
+footer .right .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover {
+    color: #304ffe;
+}
+
+footer .right p {
+    font-size: 13px;
+    color: #777;
+}
