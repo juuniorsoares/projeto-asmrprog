@@ -1,1 +1,5 @@
-site sobre criptomoedas
+SITE DE CRIPTOMOEDAS:
+
+TECNOLOGIAS USADAS:
+- HTML
+- CSS
